@@ -15,7 +15,7 @@
   <!-- Update title and description for a birthday theme -->
   <title>Happy New year</title>
   <link rel="icon" type="image/x-icon" href="https://www.palingit.com/favicon.ico" />
-  <meta name="description" content="A special birthday greeting" />
+  <meta name="description" content="A special greeting" />
 </head>
 
 <body style="background: linear-gradient(to bottom, #ffe1e1, #ff217de0), url(./r.jpg);
@@ -52,11 +52,11 @@
       <blockquote id="bq" data-text="💞">
         <!-- Update the messages for a birthday greeting -->
         <p id="kalimat">
-          Happy Birthday, gorgeous! Today is all about celebrating you.
+          Happy New year! Today is all about celebrating start of 2026.
         </p>
 
         <!-- Message -->
-        <p id="pesan1">Tap here for your birthday surprise! 🎉</p>
+        <p id="pesan1">Tap here for your surprise! 🎉</p>
         <div id="kolombaru">
           <li id="lv1">🎂</li>
           <li id="lv2">🎁</li>
@@ -66,13 +66,13 @@
 
         <p id="pesan2">You shine brighter every year! ✨</p>
         <p id="pesan3">Do you know what makes today extra special?</p>
-        <p id="pesan4" class="sty2">It’s your birthday!</p>
+        <p id="pesan4" class="sty2">It’s the new year!</p>
         <p id="pesan5" class="sty2">
-          Today, I wish you a year filled with laughter, love, and unforgettable moments.
+          Wishing you a year of bold adventures, belly laughs, and a heart full of peace.
         </p>
+          May 2026 bring you closer to your dreams and surround you with the people you love most.
         <p id="pesan6" class="sty2">
-          Remember, you deserve every happiness in the world. Celebrate big and enjoy every moment!
-        </p>
+                  </p>
 
         <!-- Next Button -->
         <p id="opsL">Tap to continue the celebration!</p>
@@ -86,7 +86,7 @@
     <div id="pesanditolak">
       <img id="stikerditolak" src="https://feeldreams.github.io/weee.gif" />
       <p id="kataditolak">
-        Oops! You can’t skip this birthday magic.
+        Oops! You can’t skip this celebration.
       </p>
     </div>
   </div>
@@ -133,7 +133,7 @@
       });
       if (nama && nama.length < 11) {
         window.nama = nama;
-        vketikhalo = "Happy Birthday, " + nama + "!";
+        vketikhalo = "Happy New year, " + nama + "!";
         mulainama();
       } else {
         await Swal.fire({
@@ -145,7 +145,7 @@
       }
     }
 
-    var tanya = "How about we celebrate your birthday in style?";
+    var tanya = "How about we celebrate new year in style?";
     var opstanya = "Your choice is:";
     var tompositif = "Absolutely, let’s celebrate! 🎉";
     var tomnegatif = "Maybe another time";
@@ -160,10 +160,10 @@
         cancelButtonText: "" + tomnegatif,
       });
       if (prtanya) {
-        pesanwhatsapp = "Yes " + nama + ", let the birthday magic begin!";
+        pesanwhatsapp = "Yes " + nama + ", let the magic begin!";
         menuju();
       } else {
-        pesanwhatsapp = nama + ", don't miss out on the birthday fun!";
+        pesanwhatsapp = nama + ", don't miss out on the fun!";
         await swalst.fire({
           title: "" + kataditolak.innerHTML,
           timer: 2000,
