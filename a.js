@@ -69,7 +69,7 @@ document.getElementById("By").onclick = function() {
 
 async function menuju(){
   await swals.fire('Yay!', 'And here comes another surprise for you!', 'success');
-  window.location = "./love/index.html";
+  window.location = "./love/2026";
 }
 
 vketik1 = kalimat.innerHTML;
