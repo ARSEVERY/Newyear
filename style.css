@@ -173,7 +173,7 @@ body {
     }
     .footer-name {
     position: fixed;
-    bottom: 350px;
+    bottom: 250px;
     right: 20px;
     font-family: var(--gaya-font); /* Uses the 'Archivo' font from your settings */
     font-size: 10px; /* Keeps the font small */
